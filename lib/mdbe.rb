@@ -1,3 +1,6 @@
+lib_path = File.expand_path('..', __FILE__)
+$LOAD_PATH.unshift lib_path unless $LOAD_PATH.include?(lib_path)
+
 module Mdbe
 #    initializer "mdbe" do |app|
 #      app.config.threadsafe!
